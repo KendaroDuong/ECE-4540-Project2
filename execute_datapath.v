@@ -3,6 +3,8 @@
 // 2-lane ALU + MAC datapath. Each enable is pulsed by
 // controller_fsm for exactly one cycle per EX state.
 // ============================================================
+`timescale 1ns/1ps
+
 module execute_datapath (
     input  wire       clk,
     input  wire       rst_n,

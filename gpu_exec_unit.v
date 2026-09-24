@@ -7,6 +7,8 @@
 //   uio_out[2]  : busy_out     uio_out[3] : done_out
 //   uio_out[7:4]: addr_out[3:0] (4-bit address, pin-budget limited)
 // ============================================================
+`timescale 1ns/1ps
+
 module gpu_exec_unit (
     input  wire       clk,
     input  wire       rst_n,

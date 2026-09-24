@@ -4,6 +4,8 @@
 // Written one at a time during the ID stage (serialized because
 // Tiny Tapeout only provides an 8-bit input bus).
 // ============================================================
+`timescale 1ns/1ps
+
 module register_file (
     input  wire       clk,
     input  wire       rst_n,

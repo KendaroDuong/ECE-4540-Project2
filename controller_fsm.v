@@ -4,6 +4,8 @@
 // 34 states total. One instruction moves through the stages
 // sequentially (not overlapped / not a pipelined design).
 // ============================================================
+`timescale 1ns/1ps
+
 module controller_fsm (
     input  wire       clk,
     input  wire       rst_n,

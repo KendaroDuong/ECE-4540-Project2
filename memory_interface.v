@@ -3,6 +3,8 @@
 // Handles LOAD/STORE address and data movement over the shared
 // bus. Address supplied is opA_l0; STORE data source is opB_l0/l1.
 // ============================================================
+`timescale 1ns/1ps
+
 module memory_interface (
     input  wire       clk,
     input  wire       rst_n,
